@@ -1,0 +1,17 @@
+{
+  "name": "fsw-clear-old-calls",
+  "version": "1.0.0",
+  "description": "clear calls on the freeswitch that are over 3 hours long",
+  "main": "./bin/index.js",
+  "bin": {
+    "fsw-clear-old-calls": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
